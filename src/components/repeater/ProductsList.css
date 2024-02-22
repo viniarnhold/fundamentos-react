@@ -1,0 +1,17 @@
+.ProductsList table {
+  width: 100%;
+  text-align: center;
+}
+
+.ProductsList th {
+  background-color: darkcyan;
+  color: white;
+}
+
+.ProductsList .Par {
+  background-color: #c7c7c7
+}
+
+.ProductsList .Impar {
+  background-color: rgb(215, 215, 215);
+}
