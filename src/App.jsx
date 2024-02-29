@@ -15,17 +15,21 @@ import PairConditional from "./conditional/PairConditional";
 import UserInfo from "./conditional/UserInfo";
 import Direct from "./components/comunication/Direct";
 import Indirect from "./components/comunication/Indirect";
+import Input from "./components/forms/Input";
 
 const App = () => {
     return (
         <div className="App">
             <h1 className="Cards">Fundamentos React</h1>
             <div className="Cards">
-            <Card titulo="#11 - Comunicação Indireta" color="#0057E7">
-                    <Indirect/>
+                <Card titulo="#12 - Componente Controlado" color="#FFAA5">
+                    <Input/>
+                </Card>
+                <Card titulo="#11 - Comunicação Indireta" color="#0057E7">
+                    <Indirect />
                 </Card>
                 <Card titulo="#10 - Comunicação Direta" color="#854442">
-                    <Direct/>
+                    <Direct />
                 </Card>
                 <Card titulo="#9 - Renderização Condicional - Pt 2" color="#283655">
                     <UserInfo nome="Jorge Silva" />
